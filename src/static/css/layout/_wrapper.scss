@@ -1,0 +1,45 @@
+///
+/// Future Imperfect by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Wrapper */
+
+#wrapper {
+	@include vendor('display', 'flex');
+	@include vendor('flex-direction', 'row-reverse');
+	@include vendor('transition', 'opacity #{_duration(menu)} ease');
+	margin: 0 auto;
+	max-width: 100%;
+	opacity: 1;
+	padding: (_size(section-spacing) * 2.5);
+	width: 100em;
+	height: 100vh;
+    
+    // Adding the background image properties
+	background-color: white;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	body.is-menu-visible & {
+		opacity: 0.15;
+	}
+
+	@include breakpoint(xlarge) {
+		padding: _size(section-spacing);
+	}
+
+	@include breakpoint(large) {
+		display: block;
+	}
+
+	@include breakpoint(small) {
+		padding: _size(section-spacing-small);
+	}
+
+	body.single & {
+		display: block;
+	}
+}

