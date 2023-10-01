@@ -28,7 +28,7 @@ const Index = () => {
       <article className="post markdown" id="about">
         <header>
           <div className="title">
-            <h2><Link to="/stories">Hi I&apos;m AGGIE</Link></h2>
+            <h2><Link to="/stories">Hi I&apos;m AGGIE - PHOTOGRAPHER</Link></h2>
             <p>(about me in {count} words)</p>
           </div>
         </header>

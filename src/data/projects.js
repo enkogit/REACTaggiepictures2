@@ -1,32 +1,10 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'West Coast',
-    link: '/stories/11',
-    subtitle: '.',
-    image: '/images/stories/v_4.jpeg',
-    date: '2022-05-27',
-    desc:
-      'A visual tale that unfolds the birthplace of our dreams, where our presence, and connection to it flourishes. Here, we nurture our own garden,'
-      + 'caring for a handful of charming chickens and goats, and crafting homemade beverages. It`s a journey we embark on, seeking a harmonious and sustainable lifestyle,'
-      + 'firmly grounded in our profound love and reverence for nature.',
-  },
-  {
-    title: 'Love Letters',
-    link: '/stories/12',
-    subtitle: '.',
-    image: '/images/stories/L_5.jpeg',
-    date: '2023-09-12',
-    desc:
-      'Made with LOVE in Calgary. Imagine the enchantment as these letters light up the night, casting a warm and inviting glow over your celebration,'
-      + 'creating an unforgettable backdrop for photographs and memories. Whether they’re placed indoors or outdoors, our love letters are the perfect way to add a touch of romantic'
-      + ' allure and a sense of wonder to your photoshoot day.',
-  },
-  {
     title: 'Fleeting moment',
     link: '/stories/1',
     subtitle: '.',
-    image: '/images/stories/s_3.jpeg',
+    image: '/images/stories/s_1.jpeg',
     date: '2022-06-10',
     desc:
       'About sensitivity, which is a source of strength and beauty.  In just a fleeting moment, I began creating something that ultimately infused me with an exceptionally potent surge of emotions.'
@@ -36,7 +14,7 @@ const data = [
     title: 'Mother, Daughters, Sisters',
     subtitle: '.',
     link: '/stories/2',
-    image: '/images/stories/mds_1.jpeg',
+    image: '/images/stories/mds_6.jpeg',
     date: '2022-09-14',
     desc:
       'Sometimes, the pieces of life come together in the most unexpected and beautiful ways. Fate seems to orchestrate the elements into a harmonious tableau, leaving me with the delightful task of capturing these moments for eternity'
@@ -60,7 +38,7 @@ const data = [
     title: 'Soon to be parents',
     subtitle: '.',
     link: '/stories/4',
-    image: '/images/stories/stb_2.jpeg',
+    image: '/images/stories/stb_7.jpeg',
     date: '2020-12-10',
     desc:
       'Focused on the overflowing love and tenderness emanating from the parents who are eagerly awaiting the arrival of their third baby girl.'
@@ -71,7 +49,7 @@ const data = [
     title: 'C&J',
     subtitle: '.',
     link: '/stories/5',
-    image: '/images/stories/cj_3.jpeg',
+    image: '/images/stories/cj_6.jpeg',
     date: '2020-12-10',
     desc:
       'One of life`s greatest joys is encountering wonderful individuals during our journey—those who radiate genuine warmth and selfless compassion. I cherish this profession because, after several months have passed, it allows me to transfer myself back in time, reliving every moment anew. '
@@ -88,6 +66,28 @@ const data = [
       'Allow me to introduce this remarkable family, a portrait of beauty in its own right, and my humble attempt to present it in the finest light.'
       + 'This holds immense significance for me as a photographer, but it`s equally treasured by these wonderful families, for whom these images become cherished mementos of moments often only heard in stories.'
       + 'It was a profound honor for me, and I extend my heartfelt gratitude to each of you for placing your trust in me.',
+  },
+  {
+    title: 'West Coast',
+    link: '/stories/11',
+    subtitle: '.',
+    image: '/images/stories/v_4.jpeg',
+    date: '2022-05-27',
+    desc:
+      'A visual tale that unfolds the birthplace of our dreams, where our presence, and connection to it flourishes. Here, we nurture our own garden,'
+      + 'caring for a handful of charming chickens and goats, and crafting homemade beverages. It`s a journey we embark on, seeking a harmonious and sustainable lifestyle,'
+      + 'firmly grounded in our profound love and reverence for nature.',
+  },
+  {
+    title: 'Love Letters',
+    link: '/stories/12',
+    subtitle: '.',
+    image: '/images/stories/l_4.jpeg',
+    date: '2023-09-12',
+    desc:
+      'Made with LOVE in Calgary. Imagine the enchantment as these letters light up the night, casting a warm and inviting glow over your celebration,'
+      + 'creating an unforgettable backdrop for photographs and memories. Whether they’re placed indoors or outdoors, our love letters are the perfect way to add a touch of romantic'
+      + ' allure and a sense of wonder to your photoshoot day.',
   },
 ];
 

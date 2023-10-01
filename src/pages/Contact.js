@@ -30,15 +30,14 @@ const Contact = () => {
         </header>
         <div className="email-at">
           <p>Feel free to contact me
-            <br /> 403 969 0333
+            <br />+1 403 969 0333
           </p>
           <EmailLink />
-          {/* <a href="/book/pay" target="_blank">BOOK NOW</a> */}
+          <ContactIcons />
         </div>
         <Markdown>
           {markdown}
         </Markdown>
-        <ContactIcons />
       </article>
     </Main>
   );

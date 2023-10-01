@@ -5,14 +5,14 @@ import { faInstagram } from '@fortawesome/free-brands-svg-icons/faInstagram';
 
 const data = [
   {
-    link: 'https://www.youtube.com/@aggie.pictures',
-    label: 'YouTube',
-    icon: faYoutube,
-  },
-  {
     link: 'https://www.instagram.com/aggie.pictures',
     label: 'Instagram',
     icon: faInstagram,
+  },
+  {
+    link: 'https://www.youtube.com/@aggie.pictures',
+    label: 'YouTube',
+    icon: faYoutube,
   },
 ];
 
