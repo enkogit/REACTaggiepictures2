@@ -31,8 +31,7 @@ const data = [
     desc:
       'Natural light consistently serves as my primary partner when I create my narratives. Photography demands little from the external world, yet it draws extensively from our innermost selves—our hearts and thoughts. '
       + 'The session I`m delighted to share falls into that rare category where, despite my initial optimism, it surpassed even my loftiest expectations. All credit goes exclusively to them —their remarkable emotions, '
-      + 'tenderness, and sensitivity breathed life into these moments. '
-      + 'MATEK F405-TE, BN220 GPS, FR SKY l9r, 950kV motor',
+      + 'tenderness, and sensitivity breathed life into these moments. ',
   },
   {
     title: 'Soon to be parents',
@@ -53,8 +52,7 @@ const data = [
     date: '2020-12-10',
     desc:
       'One of life`s greatest joys is encountering wonderful individuals during our journey—those who radiate genuine warmth and selfless compassion. I cherish this profession because, after several months have passed, it allows me to transfer myself back in time, reliving every moment anew. '
-      + 'I extend a warm invitation to you to step into the world of C&J with me.'
-      + ' and face identification for hybrid office attandece count',
+      + 'I extend a warm invitation to you to step into the world of C&J with me.',
   },
   {
     title: 'Family portraits',
