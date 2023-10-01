@@ -16,9 +16,6 @@ const About = () => {
       }).catch(console.error);
   });
 
-  const count = markdown.split(/\s+/)
-    .map((s) => s.replace(/\W/g, ''))
-    .filter((s) => s.length).length;
 
   return (
     <Main
@@ -26,12 +23,6 @@ const About = () => {
       description="Calgary based photographer"
     >
       <article className="post markdown" id="about">
-        <header>
-          <div className="title">
-            <h2><Link to="/stories">AGGIE</Link></h2>
-            <p>(read about me in {count} words)</p>
-          </div>
-        </header>
         <Markdown>
           {markdown}
         </Markdown>

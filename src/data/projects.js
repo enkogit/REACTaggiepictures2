@@ -87,6 +87,16 @@ const data = [
       + 'creating an unforgettable backdrop for photographs and memories. Whether they’re placed indoors or outdoors, our love letters are the perfect way to add a touch of romantic'
       + ' allure and a sense of wonder to your photoshoot day.',
   },
+  {
+    title: 'Autum',
+    link: '/stories/13',
+    subtitle: '.',
+    image: '/images/stories/a_2.jpeg',
+    date: '2023-09-23',
+    desc:
+      'Autumn: Last year we crossed paths and had the opportunity to create some beautiful photographs together. Capturing the depth of their love was truly enjoyable,'
+      + 'and I cherish the moments spent in their company. Once again, I returned home filled with an abundance of love and joy.',
+  },
 ];
 
 export default data;
