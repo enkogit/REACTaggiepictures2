@@ -27,6 +27,7 @@ const Story6 = lazy(() => import('./pages/Stories/Story6'));
 const Story11 = lazy(() => import('./pages/Stories/Story11'));
 const Story12 = lazy(() => import('./pages/Stories/Story12'));
 const Story13 = lazy(() => import('./pages/Stories/Story13'));
+const Story14 = lazy(() => import('./pages/Stories/Story14'));
 
 const App = () => (
   <BrowserRouter basename={PUBLIC_URL}>
@@ -43,6 +44,7 @@ const App = () => (
         <Route path="/stories/11" element={<Story11 />} />
         <Route path="/stories/12" element={<Story12 />} />
         <Route path="/stories/13" element={<Story13 />} />
+        <Route path="/stories/14" element={<Story14 />} />
         <Route path="/book" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
