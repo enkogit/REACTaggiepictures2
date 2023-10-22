@@ -1,6 +1,17 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'Boundless',
+    link: '/stories/14',
+    subtitle: '.',
+    image: '/images/stories/ppl_1.jpeg',
+    date: '2023-10-09',
+    desc:
+      'Boundless positive energy:  I`ve known them for quite a while now. We`ve always gotten along well, at least I`m very fond of them, and I genuinely enjoy their company.'
+      + 'They`re such a lovely family, full of laughter and positive vibes. The photos were the initial reason we connected,'
+      + 'but in the end they were a great enhancement to a that day. Hugs P,P and L!',
+  },
+  {
     title: 'Fleeting moment',
     link: '/stories/1',
     subtitle: '.',
@@ -96,17 +107,6 @@ const data = [
     desc:
       'Autumn: Last year we crossed paths and had the opportunity to create some beautiful photographs together. Capturing the depth of their love was truly enjoyable,'
       + 'and I cherish the moments spent in their company. Once again, I returned home filled with an abundance of love and joy.',
-  },
-  {
-    title: 'Boundless',
-    link: '/stories/14',
-    subtitle: '.',
-    image: '/images/stories/ppl_1.jpeg',
-    date: '2023-10-09',
-    desc:
-      'Boundless positive energy:  I`ve known them for quite a while now. We`ve always gotten along well, at least I`m very fond of them, and I genuinely enjoy their company.'
-      + 'They`re such a lovely family, full of laughter and positive vibes. The photos were the initial reason we connected,'
-      + 'but in the end they were a great enhancement to a that day. Hugs P,P and L!',
   },
 ];
 
