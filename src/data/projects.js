@@ -1,6 +1,17 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'Strength and Warmth',
+    link: '/stories/15',
+    subtitle: '.',
+    image: '/images/stories/2312/dec1.jpeg',
+    date: '2023-11-10',
+    desc:
+      'Very often, I carry within me the strength and weight of emotions that resonate with this photograph. The photosession, which'
+      + 'I`ve held to myself for an extended period, somehow became a reflection of where I was two years ago. Despite the cold day,'
+      + ' M chose to trust me for a few shots, just two weeks after the birth of her second child. Her strength, warmth, and abundant positive energy on that day left a profound impact on me. Im so grateful for such meetings.',
+  },
+  {
     title: 'Boundless',
     link: '/stories/14',
     subtitle: '.',
