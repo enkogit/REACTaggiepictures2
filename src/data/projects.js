@@ -1,6 +1,42 @@
 // TODO Add a couple lines about each project
 const data = [
   {
+    title: 'South Texas',
+    link: '/stories/18',
+    subtitle: '.',
+    image: '/images/stories/2410/ST/st9.jpeg',
+    date: '2024-10-03',
+    desc:
+      'Moving from north to south, I’ve never experienced an endless summer like this before. The ocean has become our place. Spending every weekend embracing the vast openness and infinite beauty it offers.',
+  },
+  {
+    title: 'August Light',
+    link: '/stories/19',
+    subtitle: '.',
+    image: '/images/stories/2410/AL/al1.jpeg',
+    date: '2024-08-020',
+    desc:
+      'I watch these boys grow so quickly, and it’s a reminder that time never stands still. The soft august light added a beautiful warmth to the photos, but it’s them that truly warm the heart. I cherish every moment spent with this family, they’re so natural and easy to be around.',
+  },
+  {
+    title: 'Mountain View County',
+    link: '/stories/17',
+    subtitle: '.',
+    image: '/images/stories/2410/MVC/mvc1.jpeg',
+    date: '2024-08-22',
+    desc:
+      'A place where you’re more likely to encounter a deer than a person. A place where you feel both deeply connected and wonderfully disconnected at the same time. Here, you breathe the purest air and dip your hands into the clearest waters. It`s a place where the trees whisper their secrets, if you take the time to listen.feel privileged and forever grateful to call this place my home.',
+  },
+  {
+    title: 'Family Reunion',
+    link: '/stories/16',
+    subtitle: '.',
+    image: '/images/stories/2410/FR/fr10.jpeg',
+    date: '2024-04-10',
+    desc:
+      'I experienced the joy of reconnecting with parents, uncles, aunts, grandparents, and all the children in the family. There was laughter, playful chaos, and a beautiful opportunity to observe the emotions and bonds shared in those meaningful moments. Family gatherings are truly special, and those with a large family are truly fortunate.',
+  },
+  {
     title: 'Strength and Warmth',
     link: '/stories/15',
     subtitle: '.',

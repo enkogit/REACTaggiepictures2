@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-import Main from '../layouts/Main';
+import Main from '../../layouts/Main';
 
-const Project1 = () => {
+const Story17 = () => {
   const [enlargedImage, setEnlargedImage] = useState(null);
 
   const handleImageClick = (image) => {
@@ -14,7 +14,7 @@ const Project1 = () => {
     setEnlargedImage(null);
   };
 
-  const images = Array.from({ length: 11 }).map((_, idx) => `/images/stories/s_${idx + 1}.jpeg`);
+  const images = Array.from({ length: 10 }).map((_, idx) => `/images/stories/2410/MVC/mvc${idx + 1}.jpeg`);
 
   return (
     <Main
@@ -44,4 +44,4 @@ const Project1 = () => {
   );
 };
 
-export default Project1;
+export default Story17;

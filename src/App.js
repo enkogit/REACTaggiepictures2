@@ -29,6 +29,10 @@ const Story12 = lazy(() => import('./pages/Stories/Story12'));
 const Story13 = lazy(() => import('./pages/Stories/Story13'));
 const Story14 = lazy(() => import('./pages/Stories/Story14'));
 const Story15 = lazy(() => import('./pages/Stories/Story15'));
+const Story16 = lazy(() => import('./pages/Stories/Story16'));
+const Story17 = lazy(() => import('./pages/Stories/Story17'));
+const Story18 = lazy(() => import('./pages/Stories/Story18'));
+const Story19 = lazy(() => import('./pages/Stories/Story19'));
 
 const App = () => (
   <BrowserRouter basename={PUBLIC_URL}>
@@ -47,6 +51,10 @@ const App = () => (
         <Route path="/stories/13" element={<Story13 />} />
         <Route path="/stories/14" element={<Story14 />} />
         <Route path="/stories/15" element={<Story15 />} />
+        <Route path="/stories/16" element={<Story16 />} />
+        <Route path="/stories/17" element={<Story17 />} />
+        <Route path="/stories/18" element={<Story18 />} />
+        <Route path="/stories/19" element={<Story19 />} />
         <Route path="/book" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
